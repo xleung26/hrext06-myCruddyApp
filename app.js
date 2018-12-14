@@ -15,6 +15,11 @@ $(document).ready(function(){
   // when button is clicked, read the value above
   $('.btn-submit').on('click', function(){
     localStorage.setItem('test of text-entry value', $('.text-entry').val());
+    var myItemInStorage = localStorage.getItem('test of text-entry value');
+    console.log('myItemInStorage', myItemInStorage);
+
   });
+  
+  
 
 });
