@@ -5,7 +5,7 @@ Create Read Update Delete using localStorage with JS, HTML and CSS
 ## To Do List
 
 ### Current Sprint
-
+(the unchecked boxes are required to finish)
 - [x] Form with input fields
 - [x] Write to local storage
 - [x] Read from local storage
@@ -20,8 +20,11 @@ Create Read Update Delete using localStorage with JS, HTML and CSS
     - [ ] delete all storage.clear()
 - [x] Display stored value in proper div
 
-### Next Sprint
-- [ ] can we test this?
-- [ ] Styling
-- [ ] UX improvements
-    - [ ] capture/prevent invalid data
+### Next Sprint (what are we trying to code)
+Examples: Replace with your own.
+- [ ] animate when new data is added
+- [ ] color code the data by timestape (older more greyed out)
+- [ ] Read from yelp api to get good bagel advice in a city
+- [ ] save my local storage to a remote storage for back up
+
+- [ ] Optional: Host on repl.it (html,css, js)
