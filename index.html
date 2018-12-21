@@ -9,14 +9,19 @@
             crossorigin="anonymous"></script>
     <script src="app.js"></script>
   </head>
+  <header class="header">
+    <h1>Xialin's To-do List</h1>
+  </header>
   <body>
-  <div>
-    <input class="text-entry" type="text" placeholder="enter your information">
-    <button class="btn-submit" type="button">save value</button>
-    <button class="btn-delete" type="button">delete value</button>
+  <div class ="entryContainer">
+    <input class="text-entry" type="text" placeholder="enter task">
+    <button class="btn-submit" type="button">add task</button>
+    <button class="btn-delete" type="button">remove task</button>
+    <button class="btn-clear" type="button">clear all task</button>
   </div>
   <div class="list-display-field">
-    nothing to display yet
+  </div>
+  <div id="dogWithBall"><img src="img_dog.png" alt="dogWithBallImg" width="300px" height="300px">
   </div>
   </body>
 </html>

@@ -1,0 +1,78 @@
+body {
+  background: #40E0D0;
+  margin: 0px 300px;
+  flex-wrap: wrap;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  margin: 0px 0px;
+  font-size: 75px;
+}
+
+h1 {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-family: 'Dekko';
+  font-size: 75px;
+  font-weight: bolder;
+  margin: 30px 0px;
+  margin-bottom: 20px
+}
+
+.entryContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0x 0px;
+  margin-bottom: 20px;
+}
+
+button {
+  margin: 0px 10px;
+  font-size: 20px; 
+}
+
+.text-entry {
+  margin: 0px 10px;
+  font-size: 20px;
+}
+
+.list-display-field {
+  display: block; 
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: row;
+  vertical-align: middle;
+  margin: 0px 150px;
+  font-weight: bold; 
+  font-size: 25px
+}
+
+input[type="checkbox"] {
+  display: inline-block;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: row;
+  margin: 10px 0px;
+  font-weight: bold;
+  color: black;
+  font-size: 100%;
+  letter-spacing: 10px;
+}
+
+#dogWithBall {
+  position: fixed;
+  bottom: 100px;
+  right: 100px;
+}
+
+.dogWithBallImg {
+  position: fixed;
+  bottom: 100px;
+  right: 100px;
+}
+
+
